@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/estilos.css">
+  <title>RadioFM Quiz - Rock & Pop 106.3</title>
+</head>
+<body>
+  <main class="quiz-container">
+    <h1>Rock & Pop FM 106.3</h1>
+    <h2>Lunes a Viernes</h2>
+    <h3>Fuente: La Maga</h3>
+
+    <section class="question-section">
+      <h4>Programa: <span id="programa">---</span></h4>
+      <p id="pregunta" class="pregunta">Cargando pregunta...</p>
+
+      <div class="opciones" id="opciones-container">
+        <!-- botones se generan dinámicamente -->
+      </div>
+    </section>
+
+    <div id="tip" class="tip" style="display: none;"></div>
+
+    <div class="info-juego">
+      <span id="contador">Pregunta 1 / 8</span>
+      <span id="intentos">Intentos fallidos: 0 / 2</span>
+    </div>
+
+    <button id="siguiente" class="btn-next" style="display: none;">Siguiente</button>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
